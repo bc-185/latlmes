@@ -12,9 +12,12 @@ module.exports = function(defaults) {
         'assets/**/*'
       ]
     },
+    'ember-service-worker': {
+      versionStrategy: 'every-build'
+    },
     'esw-cache-fallback': {
       patterns: [ '/' ],
-      version: '1' // Changing the version will bust the cache
+      version: '2' // Changing the version will bust the cache
     }
   });
 
