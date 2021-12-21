@@ -71,5 +71,15 @@ export default {
       imageName: "snow.jpg",
       slogan: "You just got informed!",
       front: false
+    },
+    {
+      id: 5,
+      name: "THE TOKYO TOILET",
+      url: "https://www.youtube.com/embed/7m5NGjBidDU?autoplay=true&t=2s&iv_load_policy=3",
+      startSeconds: 2,
+      ytid: "7m5NGjBidDU",
+      imageName: "kazooroll.jpg",
+      slogan: "You just got Kazoo Rolled!",
+      front: false
     }
 ]}
